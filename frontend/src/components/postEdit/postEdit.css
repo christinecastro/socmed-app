@@ -1,0 +1,42 @@
+.postedit{
+  width: 90%;
+  background-color: white;
+  margin: 3px;
+  -webkit-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.479);
+  border-radius: 5px;
+}
+
+.editInput {
+  height: max-content;
+  width: 80%;
+}
+
+.editInput:focus {
+  outline-color: #78b8b0;
+}
+
+.postBottomRight{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.editButton{
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #00a492;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+}
+
+.editButton:disabled{
+  background-color: #78b8b0;
+  opacity: 50%;
+}
+
+#close-btn{
+  cursor: pointer;
+}

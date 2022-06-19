@@ -1,0 +1,43 @@
+.sidebarRequest {
+  width: 90%;
+  padding-left: 0;
+  height: min-content;
+  background-color: white;
+  margin: 5px;
+  -webkit-box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.247);
+  border-radius: 5px;
+  list-style: none;
+}
+
+.sidebarRequestWrapper{
+  display: flex;
+  flex-direction: column;
+}
+.sidebarRequestNameWrapper{
+  padding-top: 10px;
+  margin: 0 5px;
+  height: 100%;
+}
+
+.sidebarRequestBtn{
+  display: flex;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5px 2px;
+}
+
+.acceptBtn{
+  color: white;
+  padding: 5px;
+  background-color: darkcyan;
+}
+
+.rejectBtn{
+  color: darkcyan;
+  padding: 5px;
+  background-color: white;
+  outline: 1px solid darkcyan;
+}

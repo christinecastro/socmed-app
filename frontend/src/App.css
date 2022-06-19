@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding:0 ;
+  color: #6c7686;
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  background-color: rgb(243, 243, 243);
+}

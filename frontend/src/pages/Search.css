@@ -1,0 +1,33 @@
+.search-container{
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  background-color: thistle;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 56px 1fr;
+  box-sizing: border-box;
+}
+.search-container > div{
+  border-radius: 1px solid lightgray;
+}
+.search-container a{
+  font-family:'Segoe UI', Roboto sans-serif;
+  font-size: large;
+  color: black; 
+  text-decoration: none;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.search-main{
+display: flex;
+flex-direction: row;
+}
+
+.logoutBtn{
+height: 30px;
+align-items: center;
+display: flex;
+}

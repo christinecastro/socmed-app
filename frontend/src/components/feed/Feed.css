@@ -1,0 +1,13 @@
+.feed{
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+  position: sticky;
+  top: 50px;
+}
+
+.errMsgWrapper{
+  margin: 50px;
+}
